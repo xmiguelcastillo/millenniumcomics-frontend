@@ -4,7 +4,6 @@ import ModelDisplay from "../components/HomePage/ModelDisplay.jsx";
 import TableDisplay from "../components/HomePage/TableDisplay.jsx";
 
 function Home() {
-
     return (
         <div className="flex flex-col items-center justify-center w-[90%] max-w-[1200px] mx-auto h-full px-4">
 

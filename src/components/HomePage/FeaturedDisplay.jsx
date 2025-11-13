@@ -7,7 +7,7 @@ export default function FeaturedDisplay() {
             id: 1,
             title: "Batman Comics",
             date: "March 30, 1939",
-            img: "/batmanfeat.webp",
+            img: `${import.meta.env.BASE_URL}batmanfeat.webp`,
             bg: "#4d3424",
             link: "/Batman",
         },
@@ -15,7 +15,7 @@ export default function FeaturedDisplay() {
             id: 2,
             title: "Spiderman Comics",
             date: "June 5, 1962",
-            img: "/spidermanfeat.jpg",
+            img: `${import.meta.env.BASE_URL}spidermanfeat.jpg`,
             bg: "#4d3424",
             link: "/Spiderman",
         },
@@ -23,11 +23,11 @@ export default function FeaturedDisplay() {
             id: 3,
             title: "Superman Comics",
             date: "April 18, 1938",
-            img: "/supermanfeat.jpg",
+            img: `${import.meta.env.BASE_URL}supermanfeat.jpg`,
             bg: "#4d3424",
             link: "/Superman",
         },
-    ]
+    ];
 
     const [index, setIndex] = useState(0)
 
