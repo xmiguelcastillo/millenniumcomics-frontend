@@ -15,9 +15,10 @@ bg-[radial-gradient(ellipse_at_30%_40%,_rgba(229,9,20,0.08)_0%,_rgba(0,51,160,0.
                 <Canvas camera={{ position: [40, 5.5, 1], fov:9 }}>
                     <ambientLight intensity={0.4} />
                     <directionalLight position={[0, 1, 9]} intensity={1} />
-                    <Spiderman position={[0, -2.5, 0]} rotation={[0, Math.PI / 2, 0]} />                    0
+                    <Spiderman position={[0, -2.5, 0]} rotation={[0, Math.PI / 2, 0]} />
                     <Environment preset="city" />
-                    <OrbitControls enableZoom={true} />
+                    <OrbitControls enableZoom={true}        autoRotate={true}
+                    />
                 </Canvas>
             </div>
 
